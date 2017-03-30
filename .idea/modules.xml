@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/first-moudle/first-moudle.iml" filepath="$PROJECT_DIR$/first-moudle/first-moudle.iml" />
+      <module fileurl="file://$PROJECT_DIR$/wall-home.iml" filepath="$PROJECT_DIR$/wall-home.iml" />
+    </modules>
+  </component>
+</project>
