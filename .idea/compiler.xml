@@ -22,11 +22,12 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="true" />
-        <module name="wall-home" />
+        <module name="first-moudle" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="wall-home" target="1.5" />
+      <module name="first-moudle" target="1.8" />
+      <module name="wall-home" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
