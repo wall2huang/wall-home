@@ -1,4 +1,4 @@
-/**
+package thread; /**
  * Created by Administrator on 2017/4/2.
  */
 
@@ -9,9 +9,8 @@ import java.util.concurrent.ThreadFactory;
 /**
  * author : Administrator
  **/
-public class ExampleThreadFactory implements Runnable
-{
-    @Override
+public class ExampleThreadFactory implements Runnable{
+
     public void run()
     {
         System.out.println("我是一个Thread");
@@ -23,7 +22,6 @@ public class ExampleThreadFactory implements Runnable
         {
             List<String> names = new ArrayList<>();
 
-            @Override
             public Thread newThread(Runnable r)
             {
                 Thread thread = new Thread(r);
@@ -31,7 +29,6 @@ public class ExampleThreadFactory implements Runnable
                 return thread;
             }
 
-            @Override
             public String toString()
             {
                 System.out.println(names);

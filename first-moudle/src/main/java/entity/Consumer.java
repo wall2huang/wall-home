@@ -1,9 +1,8 @@
-package ProperityObject;/**
+package entity;/**
  * Created by Administrator on 2017/4/3.
  */
 
 import java.util.Deque;
-import java.util.concurrent.TimeUnit;
 import java.util.concurrent.locks.Condition;
 import java.util.concurrent.locks.ReentrantLock;
 

@@ -2,7 +2,7 @@
  * Created by Administrator on 2017/4/3.
  */
 
-import ProperityObject.CalNumber;
+import entity.CalNumber;
 
 import static java.lang.Thread.sleep;
 

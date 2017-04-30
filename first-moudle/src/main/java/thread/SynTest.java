@@ -2,7 +2,7 @@
  * Created by Administrator on 2017/4/2.
  */
 
-import ProperityObject.Account;
+import entity.Account;
 
 /**
  * author : Administrator

@@ -1,11 +1,16 @@
-/**
- * Created by Administrator on 2017/4/13.
- */
+package thread;
 
-import java.util.*;
+import java.util.Collections;
+import java.util.HashMap;
+import java.util.Map;
+import java.util.Random;
 import java.util.concurrent.Executors;
 import java.util.concurrent.ThreadPoolExecutor;
 import java.util.concurrent.locks.ReentrantLock;
+
+/**
+ * Created by Administrator on 2017/4/13.
+ */
 
 /**
  * author : Administrator
@@ -16,7 +21,7 @@ public class SynThread implements Runnable
 
     public static volatile int num = 0;
 
-    @Override
+
     public void run()
     {
         try
@@ -44,6 +49,5 @@ public class SynThread implements Runnable
         }
         HashMap hashMap = new HashMap();
         Map map = Collections.synchronizedMap(hashMap);
-        TreeSet<Object> objects = new TreeSet<>();
     }
 }

@@ -1,4 +1,4 @@
-/**
+package thread; /**
  * Created by Administrator on 2017/4/4.
  */
 
@@ -43,7 +43,6 @@ public class CyclicBarrierThread extends Thread
     {
         CyclicBarrier cyclicBarrier = new CyclicBarrier(10, new Runnable()
         {
-            @Override
             public void run()
             {
                 System.out.println("所有队员集合完毕！继续海起来");

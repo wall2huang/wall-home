@@ -2,7 +2,7 @@
  * Created by Administrator on 2017/4/4.
  */
 
-import ProperityObject.Room;
+import entity.Room;
 
 import java.util.Arrays;
 import java.util.List;
